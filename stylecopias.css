@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    background-position-x: center;
+}
+
+.container article a:hover{
+    text-decoration: underline;
+    background-color: chartreuse;
+    padding: 15px 15px;
+    font-size: 25px;
+}
+
+.container h2{
+text-align: center;
+}
+header{
+    background-color: gray;
+    padding: 16px 0px;
+    color: midnightblue;
+    font-size: 20px;
+}
+
+header a{
+    color: midnightblue;
+    text-decoration: none;
+}
+
+header a:hover{
+    font-size: 35px;
+    font-family: cursive;
+    color: chartreuses;
+    color: hotpink;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.section{
+    width: 700px;
+
+}
+
+section{
+    padding: 16px 0px;
+}
+
+header li {
+    display: inline;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto    ;
+}
+
+.articles{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.articles article img{
+    width: 100%;
+}
+
+.articles article{
+    width: 22%;
+
+}
+
+section h2{
+    padding: 10px 10px;
+    background-color: aqua;
+}
+
+.container h2{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.articles a{
+    background-color: powderblue;
+    color: black;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.articles p{
+    font-style: italic;
+}
+
+.articles p, a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+article h3{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#sports{
+    background-color: rgba(18, 18, 230, 0.822);
+}
+
+#economy{
+    background-color: rgba(103, 6, 112, 0.836);
+}
+
+#economy h2{
+    background-color: rgb(5, 105, 13);
+}
+
+#economy a{
+    background-color: darkred;
+    color: white;
+}
+
+#tech {
+    background-color: coral;
+}
+
+#tech h2{
+    background-color: rgb(182, 182, 8);
+}
+
+#tech img{
+    width: 100%;
+}
+
+#entertainment{
+    background-color: rgb(18, 123, 155);
+}
+
+#entertainment h2{
+    background-color: rgb(17, 211, 92);
+}
